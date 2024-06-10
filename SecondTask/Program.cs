@@ -1,6 +1,6 @@
-﻿using firstSolution;
+﻿using SecondTask;
 
-var fluentCalculator = new FluentCalculator();
+var fluentCalculator = new Operation();
 
 Console.WriteLine(fluentCalculator.one.plus.three);
 Console.WriteLine(6 * fluentCalculator.one.plus.two + 4);
